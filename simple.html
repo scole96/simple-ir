@@ -1,0 +1,22 @@
+<head>
+  <title>simple</title>
+</head>
+
+<body>
+</body>
+
+<template name="home">
+  <h1>Hello World!</h1>
+  <a href="#" id="site_one">Site One</a>
+  <a href="#" id="site_two">Site Two</a>
+</template>
+
+<template name="things">
+  <h1>Things</h1>
+  <a href="/">Home</a>
+  <ul>
+    {{#each things}}
+      <li>{{name}}</li>
+    {{/each}}
+  </ul>
+</template>
